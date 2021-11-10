@@ -1,0 +1,120 @@
+*{
+  text-align: center;
+  right: 0;
+  left: 0;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	margin: 0;
+  background: url(assets/bg.jpg);
+	left: 0;
+	right: 0;
+  text-align: center;
+}
+.center{
+  text-align: center;
+  padding: auto;
+}
+
+.image-background{
+  background-color: #ffffff;
+	background: url(assets/bg.jpg)
+		no-repeat;
+	background-attachment: fixed;
+	background-position: 0px 0px;
+	background-size: cover;
+	max-width: 100%;
+}
+main {
+	display: block;
+	height: 175px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+p {
+	max-width: 600px;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+footer {
+	padding-top: 25px;
+	border-top: 1px solid black;
+}
+
+footer a {
+	margin: 5px;
+}
+
+.pet-image {
+	height: 250px;
+	text-align: center;
+	left: 0;
+	right: 0;
+  margin: auto;
+}
+
+.dashboard div {
+	display: block;
+	color: #fff;
+	text-align: center;
+}
+
+.pet-image-container {
+	text-align: center;
+	padding: 10px;
+  margin: auto;
+}
+
+.pet-gif {
+	height: 250px;
+	text-align: center;
+	left: 0;
+	right: 0;
+	display: "none";
+  margin: auto;
+}
+
+.dashboard {
+	padding: 20px;
+}
+
+.button-container {
+	margin-top: 20px;
+}
+
+.button-container button {
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	background-color: #1e2835;
+	border-color: #404853;
+	cursor: pointer;
+	background-image: linear-gradient(
+		to bottom,
+		rgba(246, 246, 246, 0.1) 0%,
+		rgba(30, 40, 53, 0) 66%
+	);
+	color: #fafafa;
+}

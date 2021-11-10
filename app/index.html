@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Your Giga Pet</title>
+		<meta name="description" content="A cool thing made with Glitch" />
+		<link
+			id="favicon"
+			rel="icon"
+			href="https://glitch.com/edit/favicon-app.ico"
+			type="image/x-icon"
+		/>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="script.js" defer></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>"Charchar", Your Giga Pet</h1>
+		</header>
+
+		<main>
+			<section class="pet-image-container">
+				<!-- Replace pet image with your own pet image -->
+				<img
+					class="pet-image center"
+					id="charchar"
+					src="assets/charizard.png"
+					style="display: block"
+					;
+				/>
+				<img
+					class="pet-image"
+					id="pokecenter"
+					src="assets/pokecenter.jpg"
+					style="display: none"
+				/>
+				<iframe
+					id="chargif"
+					class="pet-gif"
+					src="https://giphy.com/embed/Xli20xHucZG7KKFhkM"
+					width="480"
+					height="272"
+					frameborder="0"
+					class="giphy-embed"
+					allowfullscreen
+					style="display: none"
+				>
+				</iframe>
+				<iframe
+					id="charchu"
+					class="pet-gif"
+					src="https://giphy.com/embed/HZpCCbcWc0a3u"
+					width="480"
+					height="284"
+					frameborder="0"
+					class="giphy-embed"
+					allowfullscreen
+					style="display: none"
+				></iframe>
+				<p>
+					<a
+						href="https://giphy.com/gifs/pokemon-pikachu-fighting-HZpCCbcWc0a3u"
+					></a>
+				</p>
+				<p>
+					<a
+						href="https://giphy.com/gifs/pokemon-post-malone-pokemon-25-Xli20xHucZG7KKFhkM"
+					></a>
+				</p>
+				<iframe
+					id="charhunger"
+					src="https://giphy.com/embed/1cQMlSncDxzwc"
+					width="480"
+					height="272"
+					frameborder="0"
+					class="giphy-embed"
+					allowfullscreen
+					style="display: none"
+				></iframe>
+				<p>
+					<a href="https://giphy.com/gifs/pokemon-1cQMlSncDxzwc"></a>
+				</p>
+			</section>
+			<section class="dashboard">
+				<div>
+					Name: <strong><span class="name">Charchar</span></strong>
+				</div>
+				<div>
+					Weight: <strong><span class="weight"></span> Lbs.</strong>
+				</div>
+				<div>
+					Happiness:
+					<strong><span class="happiness"></span> Tail Flame Level</strong>
+				</div>
+				<div>
+					Stamina: <strong><span class="stamina"></span> % </strong>
+				</div>
+				<div class="button-container">
+					<button class="treat-button">Treat</button>
+					<button class="play-button">Battle</button>
+					<button class="exercise-button">Exercise</button>
+					<button class="stamina-button">Heal</button>
+				</div>
+			</section>
+		</main>
+
+		<!-- Your web-app is https, so your scripts need to be too -->
+		<script
+			src="https://code.jquery.com/jquery-2.2.1.min.js"
+			integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+			crossorigin="anonymous"
+		></script>
+		<audio id="pokemon-battle.mp3" src="assets/pokemon-battle.mp3"></audio>
+		<audio id="pokemon-center.mp3" src="assets/pokemon-center.mp3"></audio>
+		<audio id="level-up.mp3" src="assets/level-up.mp3"></audio>
+		<audio id="collision.mp3" src="assets/collision.mp3"></audio>
+		<audio id="treat.mp3" src="assets/treat.mp3"></audio>
+		<audio id="Flamethrower.mp3" src="assets/Flamethrower.mp3"></audio>
+	</body>
+</html>
