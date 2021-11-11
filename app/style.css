@@ -1,26 +1,31 @@
-*{
-  text-align: center;
-  right: 0;
-  left: 0;
+* {
+	text-align: center;
+	right: 0;
+	left: 0;
 }
 
 body {
 	font-family: helvetica, arial, sans-serif;
 	margin: 0;
-  background: url(assets/bg.jpg);
+	background: url(assets/bg.jpg);
 	left: 0;
 	right: 0;
-  text-align: center;
+	text-align: center;
+	font-size: larger;
+  position: fixed;
 }
-.center{
-  text-align: center;
-  padding: auto;
+.body-container{
+  background: url(assets/box.jpg);
 }
 
-.image-background{
-  background-color: #ffffff;
-	background: url(assets/bg.jpg)
-		no-repeat;
+.center {
+	text-align: center;
+	padding: auto;
+}
+
+.image-background {
+	background-color: #ffffff;
+	background: url(assets/bg.jpg) no-repeat;
 	background-attachment: fixed;
 	background-position: 0px 0px;
 	background-size: cover;
@@ -57,7 +62,7 @@ li {
 }
 
 footer {
-	padding-top: 25px;
+	padding-top: 5;
 	border-top: 1px solid black;
 }
 
@@ -70,7 +75,7 @@ footer a {
 	text-align: center;
 	left: 0;
 	right: 0;
-  margin: auto;
+	margin: auto;
 }
 
 .dashboard div {
@@ -81,8 +86,8 @@ footer a {
 
 .pet-image-container {
 	text-align: center;
-	padding: 10px;
-  margin: auto;
+	padding-bottom: 1%;
+	margin: auto;
 }
 
 .pet-gif {
@@ -91,7 +96,7 @@ footer a {
 	left: 0;
 	right: 0;
 	display: "none";
-  margin: auto;
+	margin: auto;
 }
 
 .dashboard {
@@ -117,4 +122,21 @@ footer a {
 		rgba(30, 40, 53, 0) 66%
 	);
 	color: #fafafa;
+}
+
+.text-box {
+	width: 240px;
+	height: auto;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin: auto;
+  background-image: url(assets/bg.jpg);
+  position: static;
+}
+
+.box-text{
+  color: #000;
+  font-size: small;
+  
 }

@@ -28,7 +28,6 @@
 					id="charchar"
 					src="assets/charizard.png"
 					style="display: block"
-					;
 				/>
 				<img
 					class="pet-image"
@@ -71,6 +70,7 @@
 				</p>
 				<iframe
 					id="charhunger"
+					class="pet-gif"
 					src="https://giphy.com/embed/1cQMlSncDxzwc"
 					width="480"
 					height="272"
@@ -98,15 +98,45 @@
 					Stamina: <strong><span class="stamina"></span> % </strong>
 				</div>
 				<div class="button-container">
-					<button class="treat-button">Treat</button>
-					<button class="play-button">Battle</button>
-					<button class="exercise-button">Exercise</button>
-					<button class="stamina-button">Heal</button>
+					<button id="treat" class="treat-button">Treat</button>
+					<button id="play" class="play-button">Play</button>
+					<button id="exercise" class="exercise-button">Exercise</button>
+					<button id="stamina" class="stamina-button">Heal</button>
+				</div>
+				<div>
+					<img
+						class="text-box"
+						id="box"
+						src="https://cdn.glitch.me/5b343755-cfdd-4a44-ac06-6e1b3a693a4d%2Fbox.jpg?v=1636595725868"
+						style="display: block"
+					/>
+					<img
+						class="text-box"
+						id="treats"
+						src="assets/treat.jpg"
+						style="display: none"
+					/>
+					<img
+						class="text-box"
+						id="plays"
+						src="assets/play.jpg"
+						style="display: none"
+					/>
+					<img
+						class="text-box"
+						id="exercises"
+						src="assets/exercise.jpg"
+						style="display: none"
+					/>
+					<img class="text-box" id="heals" src="assets/heal.jpg"
+					style="display: none"
 				</div>
 			</section>
 		</main>
 
 		<!-- Your web-app is https, so your scripts need to be too -->
+		<!-- Library for "Toast" text appearance -->
+
 		<script
 			src="https://code.jquery.com/jquery-2.2.1.min.js"
 			integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
